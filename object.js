@@ -5,3 +5,6 @@ const person = {
     year: 1993,
 
 }
+
+// console.log(person.firstName.blink())
+document.getElementById('demo').innerHTML = person.year

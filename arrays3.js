@@ -19,6 +19,7 @@ const people = [
     {name: 'Victoria', budget: 1700}
 ]
 console.log('========== Accumulate #1   REDUCE() with condition =============')
+// array.reduce(accumulate, iteration element)
 const allBudget = people.reduce((acc, person) => {
     if (person.budget > 2000) {
         acc += person.budget
